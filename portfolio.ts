@@ -12,39 +12,37 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Nathaniel Ofosu-Ansah Addo",
+  title: "Hi all, I'm Nathaniel",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "Certified Software Engineer with a passion for innovative solutions. I love crafting scalable, user-friendly applications and exploring new tech frontiers.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "AddoNathaniel",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  email: "mailto:nathanieloaaddo@gmail.com",
+  linkedin: "https://www.linkedin.com/in/addo-nathaniel-ofosu-ansah",
+  github: "https://github.com/AddoNathaniel",
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Certified Software Engineer with expertise in Full Stack & AI Development",
   data: [
     {
-      title: "Full Stack Development",
-      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      title: "Full Stack & AI Development",
+      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path to Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Developing scalable web applications with Flask and React"),
+        emoji("⚡ Building AI solutions using TensorFlow"),
+        emoji("⚡ Creating innovative mental health chatbots"),
       ],
       softwareSkills: [
         {
@@ -52,36 +50,32 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:python",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "Flask",
+          iconifyTag: "logos:flask",
+        },
+        {
+          skillName: "TensorFlow",
+          iconifyTag: "logos:tensorflow",
         },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
         {
-          skillName: "Reactjs",
+          skillName: "React",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
-          skillName: "Nextjs",
+          skillName: "Next.js",
           iconifyTag: "vscode-icons:file-type-light-next",
-        },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
-        },
-        {
-          skillName: "Github",
-          iconifyTag: "akar-icons:github-fill",
         },
         {
           skillName: "Docker",
           iconifyTag: "logos:docker-icon",
+        },
+        {
+          skillName: "GitHub",
+          iconifyTag: "akar-icons:github-fill",
         },
       ],
     },
@@ -90,8 +84,8 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "Frontend/Design",
+    progressPercentage: "85",
   },
   {
     Stack: "Backend",
@@ -105,109 +99,87 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "University of Ghana, Legon",
+    subHeader: "BSc in Computer Science (Expected Aug 2026)",
+    duration: "2022 - 2026",
     desc: "",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
+    grade: "",
+    descBullets: [],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Software Engineer",
+    company: "Think Hub Ghana",
+    companyLogo: "/img/icons/common/thinkhub.png", // Replace with actual logo path
+    date: "Present",
+    desc: "Developing and maintaining innovative software solutions by leveraging modern web and AI technologies.",
+  },
+  // {
+  //   role: "Co-founder & Software Engineer",
+  //   company: "THERAPYNE",
+  //   companyLogo: "/img/icons/common/therapyne.png", // Replace with actual logo path
+  //   date: "Present",
+  //   desc: "Co-founded a mental health chatbot initiative integrating TensorFlow for AI insights and Flask for robust backend services.",
+  // },
+  {
+    role: "Co-founder",
+    company: "The Banku Boys",
+    companyLogo: "/img/icons/common/bankuboys.png", // Replace with actual logo path
+    date: "Present",
+    desc: "Driving innovative digital projects and fostering a collaborative environment to build community-focused solutions.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Lead Software Engineer",
+    company: "AkwaabaHR Solutions",
+    companyLogo: "/img/icons/common/akwaabahrs.png", // Replace with actual logo path
+    date: "Present",
+    desc: "Leading teams in designing and implementing scalable HR solutions with a focus on cutting-edge technology integration.",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Mental Health Chatbot",
+    desc: "An AI-driven conversational bot designed to support mental health. Built with TensorFlow for natural language processing and Flask for backend integration.",
+    github: "https://github.com/AddoNathaniel/mental-health-chatbot",
+    link: "#",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "AI Conversational Bot",
+    desc: "Developed an AI-driven conversational bot using Next.js and Dialogflow to streamline university admission processes.",
+    link: "#",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
-  },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Facial Recognition Attendance Manager",
+    desc: "Engineered a real-time attendance management system using AI-based facial recognition, ensuring robust performance and scalability.",
+    link: "#",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
+    name: "Colleague",
+    role: "Software Engineer at Think Hub Ghana",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-  },
-  {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
-    feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+      "Nathaniel is a highly skilled engineer with a knack for building innovative and scalable solutions. His expertise in AI and web development is outstanding.",
   },
 ];
 
-// See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Nathaniel Ofosu-Ansah Addo",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Nathaniel Ofosu-Ansah Addo",
+  image: "https://avatars.githubusercontent.com/u/YourAvatar", // Update with your actual image URL
+  url: "https://nathanieloaaddo.vercel.com", // Update with your portfolio URL
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Nathaniel",
+    "Software Engineer",
+    "Mental Health Chatbot",
+    "TensorFlow",
+    "Flask",
+    "Full Stack Developer",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
   ],
 };
